@@ -1,0 +1,27 @@
+.jumbotron {
+  background-image: url(../images/wood.JPG) !important;
+  background-size: cover !important;
+  margin-top: 200px;
+  color: #ffffff;
+  text-align: center;
+}
+body {
+  background-image: url(../images/forest.jpg) !important;
+  background-size: cover !important;
+}
+.footer a {
+  display: flex;
+  display: inline-block;
+  color: #fff;
+}
+.footer p {
+  display: flex;
+  justify-content: flex-end;
+}
+.col {
+  background-color: rgba(222, 232, 224, 0.715);
+}
+#best-match-photo {
+  display: flex;
+  width: 400px;
+}

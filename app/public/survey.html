@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/flatly/bootstrap.min.css"
+    />
+    <script src="https://kit.fontawesome.com/410a49e7ff.js"></script>
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <title>Friend Finder</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="font-weight-bold">Survey Questions</h2>
+          <hr />
+          <h3 class="font-weight-bold">About You</h3>
+          <form name="survey" method="POST" role="form">
+            <div class="form-group">
+              <label for="name"><h4>Name (Required)</h4></label>
+              <input type="text" class="form-control" id="name" name="name" />
+            </div>
+
+            <div class="form-group">
+              <label for="photo"
+                ><h4>Link a Portfolio Picture (Required)</h4></label
+              >
+              <input type="text" class="form-control" id="photo" name="photo" />
+            </div>
+
+            <hr />
+
+            <h3 class="font-weight-bold">Question 1</h3>
+            <div class="form-group">
+              <label for="q1"
+                ><h4>
+                  I am an organized person.
+                </h4></label
+              >
+              <select class="custom-select mr-sm-2" id="q1" name="q1">
+                <option disabled selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3 (Neither Agree/ DIsagree)</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+
+            <h3 class="font-weight-bold">Question 2</h3>
+            <div class="form-group">
+              <label for="q2"
+                ><h4>
+                  I decide based on logic vs emotion.
+                </h4></label
+              >
+              <select class="custom-select mr-sm-2" id="q2" name="q2">
+                <option disabled selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3 (Neither Agree/ DIsagree)</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+
+            <h3 class="font-weight-bold">Question 3</h3>
+            <div class="form-group">
+              <label for="q3"
+                ><h4>
+                  I concider myself an early riser.
+                </h4></label
+              >
+              <select class="custom-select mr-sm-2" id="q3" name="q3">
+                <option disabled selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3 (Neither Agree/ DIsagree)</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+
+            <h3 class="font-weight-bold">Question 4</h3>
+            <div class="form-group">
+              <label for="q4"
+                ><h4>
+                  I work better in a team than an individual.
+                </h4></label
+              >
+              <select class="custom-select mr-sm-2" id="q4" name="q4">
+                <option disabled selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3 (Neither Agree/ DIsagree)</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+
+            <h3 class="font-weight-bold">Question 5</h3>
+            <div class="form-group">
+              <label for="q5"> <h4>I lose/ misplace things often.</h4></label>
+              <select class="custom-select mr-sm-2" id="q5" name="q5">
+                <option disabled selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3 (Neither Agree/ DIsagree)</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+
+            <h3 class="font-weight-bold">Question 6</h3>
+            <div class="form-group">
+              <label for="q6"
+                ><h4>
+                  I find it easy to stay up late into the night.
+                </h4></label
+              >
+              <select class="custom-select mr-sm-2" id="q6" name="q6">
+                <option disabled selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3 (Neither Agree/ DIsagree)</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+
+            <h3 class="font-weight-bold">Question 7</h3>
+            <div class="form-group">
+              <label for="q7"
+                ><h4>
+                  I have a strong work ethic.
+                </h4></label
+              >
+              <select class="custom-select mr-sm-2" id="q7" name="q7">
+                <option disabled selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3 (Neither Agree/ DIsagree)</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+
+            <h3 class="font-weight-bold">Question 8</h3>
+            <div class="form-group">
+              <label for="q8"
+                ><h4>
+                  I find it easy to make friends, socialize, and meet new
+                  people.
+                </h4></label
+              >
+              <select class="custom-select mr-sm-2" id="q8" name="q8">
+                <option disabled selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3 (Neither Agree/ DIsagree)</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+
+            <h3 class="font-weight-bold">Question 9</h3>
+            <div class="form-group">
+              <label for="q9"
+                ><h4>
+                  I am always on time to planned events.
+                </h4></label
+              >
+              <select class="custom-select mr-sm-2" id="q9" name="q9">
+                <option disabled selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3 (Neither Agree/ DIsagree)</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+
+            <h3 class="font-weight-bold">Question 10</h3>
+            <div class="form-group">
+              <label for="q10"
+                ><h4>
+                  It is easier to start a project than to finish it.
+                </h4></label
+              >
+              <select class="custom-select mr-sm-2" id="q10" name="q10">
+                <option disabled selected>Select an Option</option>
+                <option value="1">1 (Strongly Disagree)</option>
+                <option value="2">2</option>
+                <option value="3">3 (Neither Agree/ DIsagree)</option>
+                <option value="4">4</option>
+                <option value="5">5 (Strongly Agree)</option>
+              </select>
+            </div>
+
+            <br />
+
+            <button
+              type="submit"
+              class="btn btn-lg btn-primary col-12"
+              id="submit-btn"
+            >
+              Submit
+            </button>
+          </form>
+
+          <hr />
+
+          <div class="footer">
+            <p>
+              <a href="/api/friends">API Friends List</a
+              >&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a
+                href="https://github.com/frostyasian/FriendFinder"
+                >GitHub Repo</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="best-match-modal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title">You BEST Match with:</h3>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <h4 id="best-match-name"></h4>
+            <br />
+            <img id="best-match-photo" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" id="restart-btn">
+              Try Again!
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
