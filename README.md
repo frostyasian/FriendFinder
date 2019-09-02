@@ -1,2 +1,2 @@
 # FriendFinder
-https://frostyasian.github.io/FriendFinder/
+`https://stark-crag-70206.herokuapp.com/`
