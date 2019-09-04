@@ -1,7 +1,7 @@
 # FriendFinder
 `Created by Zuoyi Phang`
 ## Heroku
-https://friend-frinder-unc.herokuapp.com/
+https://friend-finder-unc.herokuapp.com/
 
 ## About
 
