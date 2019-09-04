@@ -1,6 +1,6 @@
 # FriendFinder
-
-https://stark-crag-70206.herokuapp.com/
+`Created by Zuoyi Phang`
+https://friend-frinder-unc.herokuapp.com/
 
 ## About
 
@@ -16,3 +16,8 @@ Whenever youre ready 'Click' the the "Let's Get Started" button and you will lan
 
 When you finish the survey, you will be matched with 1 out of 5 friends. For example:
 ![](/app/public/images/result.png)
+
+## Technology Used
+- Node.JS
+- Express.JS
+- AJAX Calls
