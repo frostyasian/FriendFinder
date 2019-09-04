@@ -1,6 +1,6 @@
 # FriendFinder
 `Created by Zuoyi Phang`
-`<br>`
+## Heroku
 https://friend-frinder-unc.herokuapp.com/
 
 ## About
@@ -21,4 +21,5 @@ When you finish the survey, you will be matched with 1 out of 5 friends. For exa
 ## Technology Used
 - Node.JS
 - Express.JS
+- Heroku 
 - AJAX Calls
